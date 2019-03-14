@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id="main-container-div">
+
+      <div class="header">
+          <input class="topButtons" type="button" value="Sign Up" id="signup">
+          <input class="topButtons" type="button" value="Sign In" id="signin">
+          <a id="pageTitle" class="logo-title">ScriBBler</a>
+          <p class="middleText">Explore, Imagine, Create</p>
+      </div>
+
+
+        <div class="postButtons">
+          <button type="button" id="postall">All Posts</button>
+          <button type="button" id="postcreate">Create Post</button>
+        </div>
+    </div>
+
+    <div id="signinmodal">
+       <div class="signinm">
+         <div>
+         <span id="close">&times</span>
+       </div>
+         <div class="header1">
+           <h2>Welcome Back!</h2>
+           <hr>
+         </div>
+         <div class="body1">
+           <label for="signin1">Username</label>
+           <input type="text" placeholder="Enter Username" id="signin1" required/>
+           <label for="password1">Enter your password</label>
+           <input type="password" placeholder="Enter password" id="password1" required/><br>
+           <button type="submit" name="signin" id="submit1">Sign in</button>
+         </div>
+         <div class="footer">
+           <span id="s1">Not a member?</span>
+           <a href="#signupmodal" id="a1">Signup</a>
+         </div>
+       </div>
+    </div>
+
+    <div id="signupmodal">
+      <div class="signinm">
+        <div>
+        <span id="close2">&times</span>
+      </div>
+        <div class="header1">
+          <h2>Get Started!</h2>
+          <hr>
+        </div>
+        <div class="body1">
+          <label for="">Full Name</label>
+          <input type="text" placeholder="Enter Full Name" required/>
+          <label for="signin1">Username</label>
+          <input type="text" placeholder="Enter Username"  required/>
+          <label for="password1">Password</label>
+          <input type="password" placeholder="Enter password" required/>
+          <label for="password1">Confirm Password</label>
+          <input type="password" placeholder="Confirm password" required/><br>
+          <button type="submit" name="signup1" id="submit1">Sign up</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="blog">
+      <div class="signinm">
+        <div>
+        <span id="close3">&times</span>
+      </div>
+        <div class="header1">
+          <h2>Create Blog!</h2>
+          <hr>
+        </div>
+        <div class="body1">
+          <label for="signin1">Author Name</label>
+          <input type="text" placeholder="Enter Author Name" id="signin1" required/>
+          <label for="password1">Blog Heading</label>
+          <input type="text" placeholder="Enter blog heading" id="password1" required/>
+          <label for="signin1">Blog Content</label>
+          <input type="text" placeholder="Enter blog content" id="signin1" required/><br>
+          <button type="submit" name="signin" id="submit1">Create</button>
+        </div>
+      </div>
+    </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+.topButtons
+{
+    float: right;
+    background-color: blue;
+    color: white;
+    margin: 3px;
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+}
+.logo-title
+{
+    margin-left: 0px;
+    font-family: 'Satisfy',cursive;
+    color: blue;
+    font-size: 50px;
+}
+.middleText
+{
+    color: black;
+    margin-left: 0px;
+    font-family: 'Marck Script',cursive;
+    font-size: 15px;
+}
+#signinmodal{
+display: none;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+padding-top: 100px;
+height: 100%;
+width: 100%;
+background-color: white;
+background-color: rgba(0,0,0,0.6);
+}
+#signupmodal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  background-color: rgba(0,0,0,0.6);
+
+}

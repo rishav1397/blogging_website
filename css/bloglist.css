@@ -1,0 +1,168 @@
+.signinm{
+  margin:auto;
+  background-color:#fff;
+  position:relative;
+  padding:15px;
+  outline:0;
+  max-width:300px;
+  color: black;
+}
+#modal3{
+display: none;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+padding-top: 100px;
+height: 100%;
+width: 100%;
+background-color: white;
+background-color: rgba(0,0,0,0.6);
+}
+hr{
+  color: black;
+}
+#close{
+  float:right;
+  cursor: pointer;
+  font-size: 22px;
+}
+.body1{
+  display: flex;
+  flex-direction: column;
+}
+.footer{
+text-align: center;
+padding:20px;
+}
+#cancel1{
+  background-color: red;
+  border: none;
+  border-radius: 2px;
+  padding: 4px;
+  color: white;
+}
+.header1{
+  text-align: center;
+}
+#submit1{
+  padding: 5px;
+  background-color: rgb(58, 200, 97);
+  border:1px solid rgb(58, 203, 86);
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+label{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+input[type=text]{
+  padding:5px;
+  background-color:rgb(240, 240, 240);
+  border: 1px solid rgb(240, 240, 241);
+  border-radius: 2px;
+}
+input[type=password]{
+  padding: 5px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(240, 240, 241);
+  border-radius: 2px;
+}
+#close2{
+  float:right;
+  cursor: pointer;
+  font-size: 22px;
+}
+.post {
+    position: relative;
+    width: 40%;
+    height: 90%;
+    background: #fff;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin: 10px 5% 10px 5%;
+    border-radius: 15px;
+}
+
+.post-left {
+        width: 15%;
+        max-width: 15%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+}
+.post-content {
+        width: 75%;
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0 20px;
+}
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;flex-wrap: wrap;flex-wflex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;flex-wrap: wrap;rap: wrap;
+    font-size: 25px;
+    height: 25px;
+    overflow: hidden;
+    }
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.post-desc{
+    height: 100px;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    text-align: justify;
+    height: 2.9em;
+    line-height: 1em;
+    letter-spacing: 0.8px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    color: #fff;
+    background-color: orange;
+    background-size: 2000% 2000%;
+}
+.allPostsContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#dot_dot{
+  float: right;
+  cursor: pointer;
+}
+#trash{
+  float: right;
+  padding-top: 7px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#item1{
+  margin-left: 200px;
+}
+#close4{
+    float:right;
+    cursor: pointer;
+    font-size: 22px;
+}

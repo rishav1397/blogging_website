@@ -9,15 +9,18 @@ window.onclick = function(event) {
 document.getElementById('close2').onclick=function(){
   modal2.style.display='none';
 }
-document.getElementById('trash').onclick=function(){
+function fun(){
   document.getElementById('modal3').style.display='block';
 }
-document.getElementById('close4').onclick=function(){
+document.getElementById('btn1').onclick=function(){
   document.getElementById('modal3').style.display='none';
 }
-document.getElementById('dot_dot').onclick=function(){
+function fun2(){
   window.location='post.html';
 }
 function open(){
     document.getElementById('modal3').style.display='block';
+}
+document.getElementById('btn2').onclick=function(){
+  document.getElementById('modal3').style.display='none';
 }

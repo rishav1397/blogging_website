@@ -12,14 +12,156 @@
     padding: 0px 0px 0px 10px;
     font-family: 'Niconne', cursive;
     font-size: 30px;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+
 }
 .blogContent{
 
 }
-#edit1{
-float: right;
+#editing {
+    background-color: #ef3b65;
+    float: right;
+    font-size: 16px;
+    padding: 6px;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 0px 3px 3px 1px #f7a1b5;
+    border: 0px;
+}
+#comment {
+      background-color: #ef3b65;
+    padding: 10px 30px;
+    color: white;
+    box-shadow:0px 3px 3px 1px #f7a1b5;
+    border-radius: 3px;
+    border: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+#jimmi {
+    display: inline;
+}
+#txtarea {
+    width:60%;
+    margin-top: 20px;
+}
+#allcomments {
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 40px;
+}
+#listcomments {
+ background-color: #e2e4e6;
+}
+.cmntdiv {
+    padding: 20px 10px;
+    background-color: white;
+    margin-top: 15px;
+}
+.editcmnt1 {
+    width: 100%;
+    resize: none;
+}
+
+h6
+{
+
+color: black;
+}
+.close1 {
+
+  position:absolute;
+  right: 460px;
+ bottom: 620px;
+     z-index: 1;
+  font-size: 40px;
+  font-weight: bold;
+  color: gray;
+     cursor: pointer;
+}
+#uname
+{
+padding:6px;
+    height: 26px;
+}
+#upass
+{
+padding:5px;
+    height: 26px;
+}
+#like {
+    background-color: #ef3b65;
+    padding: 10px 35px;
+    color: white;
+    box-shadow:0px 3px 3px 1px #f7a1b5;
+    border-radius: 3px;
+    border: 0px;
+    margin-top: 15px;
+}
+.signinm{
+  margin:auto;
+  background-color:#fff;
+  position:relative;
+  padding:15px;
+  outline:0;
+  max-width:300px;
+}
+hr{
+  color: black;
+}
+#close{
+  float:right;
+  cursor: pointer;
+  font-size: 22px;
+}
+.body1{
+  display: flex;
+  flex-direction: column;
+}
+.footer{
+text-align: center;
+padding:20px;
+}
+#cancel1{
+  background-color: red;
+  border: none;
+  border-radius: 2px;
+  padding: 4px;
+  color: white;
+}
+.header1{
+  text-align: center;
+}
+#submit1{
+  padding: 5px;
+  background-color: rgb(58, 200, 97);
+  border:1px solid rgb(58, 203, 86);
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+label{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+input[type=text]{
+  padding:5px;
+  background-color:rgb(240, 240, 240);
+  border: 1px solid rgb(240, 240, 241);
+  border-radius: 2px;
+}
+input[type=password]{
+  padding: 5px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(240, 240, 241);
+  border-radius: 2px;
+}
+#close2{
+  float:right;
+  cursor: pointer;
+  font-size: 22px;
 }
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
